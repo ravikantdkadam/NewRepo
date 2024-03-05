@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.578" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="Amazon  Feature Test" name="Amazon login with valid credential" time="0.02">
+<system-out><![CDATA[
+Given user is on login page1................................................passed
+When user enter the username and password...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon  Feature Test" name="Amazon login with invalid credential" time="0.007">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+When user enter the invalid username and password...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon  Feature Test" name="user select product and add to cart" time="0.025">
+<system-out><![CDATA[
+Given user is on main page..................................................passed
+When user select the product................................................passed
+And click on the Add to card button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon  Feature Test" name="User able to verify the previous order list" time="0.011">
+<system-out><![CDATA[
+Given user is on initial screen.............................................passed
+When user click on you order link...........................................passed
+Then user able to see the previous order list...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon  Feature Test" name="user able to signout successfully" time="0.013">
+<system-out><![CDATA[
+Given user is on homepage...................................................passed
+When user click on account list.............................................passed
+And move the mouse on Signout link..........................................passed
+And Click on Sign out link..................................................passed
+Then user sign out from the amazon account..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
